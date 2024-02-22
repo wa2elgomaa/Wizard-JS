@@ -836,4 +836,8 @@ class Wizard {
     }
 };
 
+if(typeof window !== 'undefined'){
+    window.Wizard = Wizard
+}
+
 export default Wizard;
